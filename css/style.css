@@ -1681,7 +1681,6 @@ textarea {
   font-weight: normal;
   margin: 6px 4px;
   padding: 7px 15px;
-  text-transform: capitalize;
   font-size: 14px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1736,6 +1735,7 @@ textarea {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
   margin-bottom: 30px;
   padding: 30px 20px;
+  min-height: 288px;
   position: relative;
   text-align: center;
   -webkit-transition: all 0.2s ease 0s;
