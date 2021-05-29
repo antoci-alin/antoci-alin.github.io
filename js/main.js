@@ -16,9 +16,11 @@
         }, 800);
         setTimeout(function() {
           preloader.remove();
+          $('#disclaimer--modal').modal('show')
         }, 2000);
       } else {
         preloader.remove();
+        $('#disclaimer--modal').modal('show')
       }
     },
 
